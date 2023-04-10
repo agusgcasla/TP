@@ -3,9 +3,7 @@ import org.junit.Test;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.chrono.ChronoLocalDate;
 
-import static org.junit.Assert.*;
 
 public class TareaTest {
     @Test
@@ -34,7 +32,7 @@ public class TareaTest {
         Assert.assertEquals(hora, t.getLimite());
     }
 
-    @Test
+
 
 
 
